@@ -52,7 +52,7 @@
     (cond
      ((setq app-root (locate-dominating-file default-directory "Emakefile"))
       (expand-file-name app-root))
-     ((setq app-root (locate-dominating-file default-directory "rebar"))
+     ((setq app-root (locate-dominating-file default-directory "rebar.config"))
       (expand-file-name app-root))
      ((setq app-root (locate-dominating-file default-directory "Makefile"))
       (expand-file-name app-root))
